@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Tienda de lentes</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+                <div class="main-header__container">
+                    <h1 class="main-header__title">VISION +</h1>
+                    <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+                    <nav class="main-nav" id="main-nav"> 
+                        <ul class="menu">
+                            <li class="menu__item"><a href="./index.html" class="menu__link">HOME</a></li>
+                            <li class="menu__item"><a href="./about.html" class="menu__link">ABOUT</a></li>
+                            <li class="menu__item"><a href="./features.html" class="menu__link">FEATURES</a></li>
+                            <li class="menu__item"><a href="./shop.html" class="menu__link">SHOP</a></li>
+                            <li class="menu__item"><a href="./contact.html" class="menu__link">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="main-header__container">
+                    <span class="X|C|">Need help</span>
+                    <p class="main-header__txt"><i class="product__icon fas fa-phone"> </i>  123456789</p>
+                </div>
+                <div class="main-header__container">
+                    <a href="" class="main-header__link"><i class="product__icon fas fa-user"></i></a>
+                    <a href="" class="main-header__btn">My Cart  <i class="product__icon fas fa-shopping-cart"></i></a>
+                    <input type="search" placeholder="Buscar productos" class="main-header__input"><i class="product__icon fas fa-search"></i>
+                </div>
+        </div>
+    </header>
+
+    <section class="section-container-contact">
+        <form action="enviar.php" method="post" class="formulario-contact" id="formulario">
+            <h2 class="txt">Contactanos</h2>
+            <label>Nombre: </label>
+            <input type="text" placeholder="Ingresa tu nombre" name="nombre" required>
+            <label>Apellido</label>
+            <input type="text" placeholder="Ingresa tu apellido" name="apellido" required>
+            <label>Email</label>
+            <input type="email" placeholder="Ingresa tu email" name="email" required>
+            <label>Escriba su consulta </label>
+            <textarea name="mensaje" placeholder="Escriba un mensaje..." required></textarea>
+            <input type="submit" value="Submit" id="btn-contact">
+        </form>
+
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer__section">
+            <h2 class="footer__title">About</h2>
+            <p class="footer__txt">Curabitur non nulla sit amet nislinit tempus convallis quis ac lectus. lac inia eget consectetur sed, convallis at tellus. Nulla porttitor accumsana tincidunt.</p>
+        </div>
+        <div class="footer__section">
+            <h2 class="footer__title">Location: </h2>
+            <p class="footer__txt">0926k 4th block building, king Avenue, New York City.</p>
+            <h2 class="footer__title">Contact</h2>
+            <p class="footer__txt">Phone : +121 098 8907 9987</p>
+            <p class="footer__txt">Email : info@example.com</p>
+        </div>
+        <div class="footer__section">
+            <h2 class="footer__title">Quick Links</h2>
+            <a href="" class="footer__link">Home</a>
+            <a href="" class="footer__link">About</a>
+            <a href="" class="footer__link">Error</a>
+            <a href="" class="footer__link">Shop</a>
+            <a href="" class="footer__link">Contact</a>
+        </div>
+        <div class="footer__section">
+            <h2 class="footer__title">Sign up for your offers</h2>
+            <p class="footer__txt">By subscribing to our mailing list you will always get latest news and updates from us.</p>
+            <input type="email" class="footer__input" placeholder="Enter your email...">
+        </div>
+        <p class="copy">© 2021 Vision. All Rights Reserved | Design by Tomas gelvez</p>
+      </footer>
+
+      <script src="../js/formularioContact.js"></script>
+      <script src="../js/menu.js"></script>
+      <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
+
+</body>
+</html>
